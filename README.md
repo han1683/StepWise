@@ -4,8 +4,6 @@ Fresh Footwear E-Commerce Platform
 StepWise is a locally hosted full-stack web application designed as an online shoe store.  
 Users can browse products, view details, and interact with the early foundations of a shopping experience.  
 
-Developed for **CP317A – Software Engineering (Group XVIII).**
-
 ---
 
 ## 🛠️ Tech Stack
