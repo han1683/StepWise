@@ -65,21 +65,28 @@ StepWise/
 │── utils/
 │── package.json
 │── README.md
+
 ⚙️ Setting Up the Next.js Frontend (SQLite + Prisma)
 1. Clone the repo
+
 git clone https://github.com/ShadowMaster1453/StepWise.git
 cd StepWise
+
 2. Install dependencies
 npm install
+
 3. Create a .env file
 DATABASE_URL="file:./prisma/dev.db"
 NEXTAUTH_SECRET="mysecret"
 NEXTAUTH_URL="http://localhost:3000"
+
 4. Initialize the database
 npx prisma generate
 npx prisma db push
+
 5. Run the development server
 npm run dev
+
 Visit the frontend:
 👉 http://localhost:3000
 
@@ -89,12 +96,12 @@ Make sure your MySQL server is running.
 
 2. Create a schema
 For example:
-
 fresh_footwear
+
 3. Import all 12 tables
 Use the files in:
-
 /database/
+
 In MySQL Workbench: - Server → Data Import, or\
 
 File → Run SQL Script
@@ -107,18 +114,19 @@ db = mysql.connector.connect(
 )
 5. Make sure all template files exist
 Located in:
-
 /admin/templates/
+
 6. Run the admin dashboard
 python admin_app.py
 The terminal will show something like:
-
  * Running on http://127.0.0.1:5000
+
 Open this in Chrome.
 
 7. Login credentials
 Username: admin
 Password: 123456
+
 🧩 System Interaction
 Frontend
 Uses SQLite to render pages and handle local logic.
@@ -137,7 +145,8 @@ DATABASE_URL Next.js SQLite path NEXTAUTH_SECRET Next.js Session encryption NEXT
 
 MySQL credentials stay inside admin/db.py.
 
-👥 Group XVIII
+
+👥 Group 
 Member Role
 
 Nadeem Almalki Product Owner
